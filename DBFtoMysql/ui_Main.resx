@@ -1,0 +1,852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ckStringTrim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 87</value>
+  </data>
+  <data name="&gt;&gt;txtDatabase.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="progressBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;txtUser.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;txtUser.Name" xml:space="preserve">
+    <value>txtUser</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSelectFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ckStringTrim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="&gt;&gt;txtDatabase.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 27</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>642, 239</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 204</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>DBF to Mysql</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker.Name" xml:space="preserve">
+    <value>backgroundWorker</value>
+  </data>
+  <data name="progressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtHost.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;progressBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtUser.Text" xml:space="preserve">
+    <value>root</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEO8Q31Eu0T4RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE+EO8Q31Eu0T4RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T4RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0a7Rv9JvUn/RLtE/1C/UP9Ovk7/RLtE/0i8SP9Eu0T/RLtE/0S7RP+L1Iv/5PXk/93y
+        3f/C6ML/nNqc/2PGY//7/fv/kteS/1PAU//4/Pj/ndud/1LAUv/j9OP/achp/0S7RP9Eu0T/p9+n////
+        ///s+Oz/+v36/83tzf9uyW7//////4nUif9Eu0T/uOW4/+b15v+047T/7Pjs/1LAUv9Eu0T/RLtE/7Di
+        sP//////Y8Zj/0W7Rf9MvUz/dMx0//////+C0YL/RLtE/1vDW//5/Pn//v7+/4jTiP9Eu0T/RLtE/0S7
+        RP+25Lb//////17EXv9Eu0T/RLtE/3nOef//////ftB+/0S7RP9Eu0T/2/Hb//7+/v9gxWD/RLtE/0S7
+        RP9Eu0T/uuW6//////9cxFz/RLtE/0S7RP/H6sf//////67hrv93zXf/a8lr///////s9+z/0e7R/0S7
+        RP9Eu0T/RLtE/7vmu///////XcRd/0S7RP9HvEf/yuvK///////v+e//y+zL/6nfqf/0+/T/achp//3+
+        /f97znv/RLtE/0S7RP+55bn//////2HFYf9Eu0T/RLtE/37Qfv//////es56/0S7RP+f3J//k9eT/0S7
+        RP+45bj/gtGC/0S7RP9Eu0T/teS1//////9pyGn/RLtE/0S7RP9wynD//////4LRgv/d8t3/ldiV/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/63hrf//////dMx0/0S7RP9Eu0T/Tb5N//n9+f/I6sj/+v36/3rO
+        ev9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP+E0oT/teS1/2TGZP9Eu0T/RLtE/0S7RP+o36j//////+P0
+        4/9JvEn/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/2nI
+        af9Ovk7/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE+ES7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE+EO8Q31Eu0T4RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE+EO8Q30AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAFCu0J7RLpE5kO7Q/5Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Du0P+RLpE5kK7QnsA/wABQrtCe0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0K7QntEukTmRLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLpE5kO7Q/5Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Du0P+RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9MvUz/W8Nb/0S7RP9Eu0T/RLtE/0e8R/9yy3L/bspu/0S7RP9Eu0T/RLtE/06+Tv9LvUv/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/6vgq//C6ML/0u7S/8vsy/+u4a7/k9eT/3jNeP9exF7/SLxI/0S7
+        RP96znr/8/rz//7+/v/m9eb/RLtE/0S7RP93zXf/8/rz///////T7tP/RLtE/0S7RP9Eu0T/vea9/9Hu
+        0f9Ovk7/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/+/37////////////////////////////////////
+        ///N7M3/RLtE/4vUi////////////9vy2/9Eu0T/RLtE/02+Tf/y+vL///////7+/v9gxWD/RLtE/3/Q
+        f////////////87tzv9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0u9S///////////////////////////////
+        /////////////63hrf9Eu0T/lNeU////////////0+7T/0S7RP9Eu0T/RLtE/6Ldov///////////6rg
+        qv9KvUr/6ffp///////+/v7/f9B//0S7RP9Eu0T/RLtE/0S7RP9Eu0T/VcFV/////////////////9zy
+        3P/Z8dn/7vju//7+/v//////jNWM/0S7RP+c2pz////////////L7Mv/RLtE/0S7RP9Eu0T/T79P//L6
+        8v//////8fnx/5/bn////////////7fkt/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9exF7/////////
+        ////////htOG/0S7RP9Eu0T/SbxJ/1zDXP9Ovk7/RLtE/6Ldov///////////8TpxP9Eu0T/RLtE/0S7
+        RP9Eu0T/m9qb/////////////f79///////x+vH/UcBR/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/2XG
+        Zf////////////////9/0H//RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/p9+n////////////v+e//0S7
+        RP9Eu0T/RLtE/0S7RP9KvUr/6fbp/////////////////5vam/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/a8lr/////////////////3rOev9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP+s4az/////////
+        //+65rr/RLtE/0S7RP9Eu0T/RLtE/0S7RP+Z2Zn////////////9/v3/UsBS/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9wy3D/////////////////eM14/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/7Hi
+        sf///////////7bktv9Eu0T/RLtE/0S7RP9Eu0T/RLtE/9fw1/////////////////+o36j/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/3TMdP////////////////92zXb/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP91zHX/y+zL////////////tOO0/0S7RP9Eu0T/RLtE/0S7RP9vym////////////////////////3+
+        /f9tym3/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/ds12/////////////////3XNdf9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/97z3v/////////////////x+fH/0e7R/8jryP+P1o//RLtE/7bktv///////////7Xj
+        tf/9/v3//////9zy3P9Gu0b/RLtE/0S7RP9Eu0T/RLtE/0S7RP93zXf/////////////////ds12/0S7
+        RP9Eu0T/RLtE/0S7RP9Qv1D//f79/////////////////////////////////7DisP9GvEb/8vry////
+        ///9/v3/VMBU/7bktv///////////4fTh/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/3fNd///////////////
+        //94zXj/RLtE/0S7RP9Eu0T/RLtE/0W7Rf9gxWD/zu3O////////////6vfq/9bw1v/f89//oNyg/27K
+        bv///////////9fw1/9Eu0T/WcJZ//r9+v//////3fLd/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/ds12////
+        /////////////3vPe/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP+75rv///////////+w4rD/RLtE/0S7
+        RP9Eu0T/mdmZ////////////qd+p/0S7RP9Eu0T/t+S3///////+/v7/YcVh/0S7RP9Eu0T/RLtE/0S7
+        RP9zy3P/////////////////gdGB/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/7bktv///////////7Hi
+        sf9Eu0T/RLtE/0e8R/95znn/bspu/1zDXP9IvEj/RLtE/0S7RP9ryWv/wejB/2jIaP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/2/Kb/////////////////+J1In/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/qd+p////
+        ////////uOW4/0S7RP+x4rH//f79/+347f9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/achp/////////////////5PXk/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP+R1pH////////////I68j/RLtE/8jqyP//////4fTh/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9hxWH/////////////////n9uf/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/2rIav///////////+v36/9JvEn/7fjt///////H6sf/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/1fCV/////////////////+r4Kv/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RbtF/+r36v///////////+347f///////////5zanP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/S71L/////////////////7rl
+        uv9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/ldiV///////////////////////6/fr/WsJa/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/hNKE/3PM
+        c/9jxmP/T79P/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Gu0b/yOrI/////////////v7+/5jZ
+        mP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Gu0b/gtGC/5va
+        m/9uym7/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/Q7tD/kS7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0O7Q/5EukTmRLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLpE5kK7QntEu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Cu0J7AP8AAUK7QntEukTmQ7tD/kS7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0O7Q/5EukTmQrtCewD/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAr0AQQrpCXUK7QsRDu0P2Q7tD/kS7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0O7Q/5Du0P2Q7tDx0G5QWJAr0AQAAAAADOzMwpDukOUQ7tD9kS7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S6RPlDukOUQK9AEEC5
+        QFdEukT5RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9EukT5QblBYkO7Q8NEu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/Q7tDx0O7Q/VEu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/Q7tD9kO7Q/5Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/Q7tD/kS7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Hu0f/V8FX/2vJa/9Zwln/RLtE/0S7
+        RP9Eu0T/RLtE/0W7Rf9mx2b/pN2k/8Lpwv9Hu0f/RLtE/0S7RP9Eu0T/RLtE/0i8SP9hxWH/SLxI/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9cw1z/hNKE/5fZl/+p36n/uuW6/7Pj
+        s/+U15T/dcx1/2PGY/9cw1z/VsFW/0+/T/9JvEn/RLtE/0S7RP9Eu0T/k9eT/+b15v/5/Pn//v7+//n8
+        +f+K1Ir/RLtE/0S7RP9Eu0T/jtWO/9/z3//9/v3///////H58f9qyGr/RLtE/0S7RP9Eu0T/RLtE/3XM
+        df/u+O7/ldiV/0q9Sv9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP+Y2Zj/+/37////
+        /////////////////////////v/+//X79f/j9OP/0e7R/8DowP+w4rD/gdCB/0S7RP9Eu0T/sOKw////
+        //////////////f89/+D0oP/RLtE/0S7RP9Eu0T/g9GD//7+/v////////////v9+/+Z2Zn/RbtF/0S7
+        RP9Eu0T/XMNc/+L04v//////+fz5/6bepv9Qv1D/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP+f3J///v7+////////////////////////////////////////////////////////////pN2k/0S7
+        RP9Eu0T/u+W7//////////////////X79f98z3z/RLtE/0S7RP9Eu0T/R7xH/9jw2P////////////7+
+        /v/K68r/U8BT/0S7RP9IvEj/wujC//////////////////b79v+E0oT/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0W7Rf+n3qf/////////////////////////////////////////////////////////
+        ///+/v7/gtGC/0S7RP9Eu0T/xOjE//////////////////T79P93zXf/RLtE/0S7RP9Eu0T/RLtE/3vO
+        e//6/fr////////////2+/b/bclt/0S7RP+B0YH/8vry/////////////v7+/8bqxv9LvUv/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0e8R/+t4a3/////////////////////////////////////////
+        ///////////////////4/Pj/Z8dn/0S7RP9Eu0T/zezN//////////////////P68/9yy3L/RLtE/0S7
+        RP9Eu0T/RLtE/0+/T//R7tH/////////////////s+Oz/02+Tf/F6cX//v7+////////////3PLc/1nC
+        Wf9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0i8SP+047T//////////////////////93y
+        3f+p36n/wujC/9rx2v/z+vP//v7+///////k9eT/XMRc/0S7RP9Eu0T/1e/V//////////////////H6
+        8f9syWz/RLtE/0S7RP9Eu0T/RLtE/0S7RP+P1o//9vz2////////////+Pz4/4XShf/6/fr/////////
+        ///0+/T/c8tz/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0q9Sv+65br/////////
+        /////////////7rmuv9Eu0T/RLtE/0S7RP9Eu0T/UL5Q/2TGZP9syWz/Sr1K/0S7RP9Eu0T/2/Hb////
+        //////////////D58P9nx2f/RLtE/0S7RP9Eu0T/RLtE/0S7RP9UwFT/1/DX//////////////////r8
+        +v////////////3+/f+y47L/TL5M/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0u9
+        S/+/57///////////////////////7Hisf9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9HvEf/3fLd/////////////////+/57/9jxmP/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/gdGB//3+
+        /f////////////////////////////H58f9uym7/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0y+TP/E6cT//////////////////////6rfqv9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9LvUv/3vPe/////////////////+757v9gxWD/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RrxG/7/nv////////////////////////////7vlu/9Gu0b/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/02+Tf/H6sf//////////////////////6TdpP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Ovk7/3/Pf/////////////////+747v9dxF3/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/2HFYf/2+/b//////////////////f79/2XGZf9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/06+Tv/L7Mv//////////////////////6Dc
+        oP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Rv1H/4fTh/////////////////+34
+        7f9bw1v/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/3XMdf/3/Pf//////////////////P38/4XS
+        hf9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0+/T//O7c7/////////
+        /////////////57bnv9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9UwFT/4vTi////
+        /////////////+z47P9Ywlj/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/9Xw1f//////////////
+        /////////////+r36v9nx2f/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0+/
+        T//R7tH//////////////////////5zanP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/1C/
+        UP9syWz/5vXm/////////////////+z47P9XwVf/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/d8x3////
+        //////////////////////////////7+/v+25Lb/Tb5N/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/1C/UP/T7tP//////////////////////5vam/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/5zanP/m9eb/+f35//////////////////L68v+H04f/cctx/2zJbP9pyGn/T79P/0S7
+        RP9HvEf/wejB//////////////////f79//x+fH////////////z+vP/ftB+/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/1C/UP/U79T//////////////////////5ramv9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/9Tv1P////////////////////////////7+/v/2+/b/8/rz//H6
+        8f/x+fH/es56/0S7RP9lx2X/6Pbo/////////////////7fkt/+v4q///f79////////////5fXl/0q9
+        Sv9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/1C/UP/V79X//////////////////////5va
+        m/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/Tr5O//v9+///////////////////////////////
+        ////////////////////////fs9+/0S7RP+O1Y7/9/z3/////////////f79/23Jbf9qyWr/5/bn////
+        /////////////6DboP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/1G/Uf/V79X/////////
+        /////////////53anf9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/V8FX/7fkt//U79T/+fz5////
+        ////////////////////////////////////////fs9+/0i8SP+y47L//v7+////////////5fXl/0e7
+        R/9Gu0b/qd+p/////////////////+b15v9aw1r/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/1C/
+        UP/V79X//////////////////////5/cn/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0m8
+        Sf9nx2f/5/bn//////////////////X79f+047T/u+W7/8Xpxf/M7Mz/b8pv/1C/UP/U79T/////////
+        ////////r+Gv/0S7RP9Eu0T/T75P/+/47/////////////r9+v+O1Y7/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/1C/UP/U79T//////////////////////6TdpP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9dxF3/5fXl/////////////////+v36/9SwFL/RLtE/0S7RP9Eu0T/RLtE/1jC
+        WP/w+fD////////////+/v7/f9B//0S7RP9Eu0T/RLtE/5jZmP/+/v7///////7+/v+55bn/Tb5N/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/1C/UP/S7tL//////////////////////6nfqf9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9cw1z/5fXl/////////////////+v36/9SwFL/RLtE/0S7
+        RP9Eu0T/RLtE/2LGYv/V79X/yevJ/7zmvP+t4a3/V8FX/0S7RP9Eu0T/RLtE/1vDW//r9+v//f79/9Xv
+        1f+M1Yz/S71L/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0+/T//Q7dD//////////////////////7Hi
+        sf9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Xwlf/4/Tj/////////////////+v3
+        6/9UwFT/RLtE/0S7RP9Eu0T/Tb1N/2bHZv9kxmT/Tb5N/0q9Sv9HvEf/RLtE/0S7RP9Eu0T/RLtE/0q9
+        Sv+a2pr/fc99/1G/Uf9Fu0X/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0++T//N7M3/////////
+        /////////////7vlu/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Ovk7/3/Pf////
+        /////////////+347f9Zwln/RLtE/33Pff/v+e///f79//r9+v+Q1pD/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/06+
+        Tv/K68r//////////////////////8Xpxf9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Fu0X/1e/V/////////////////+/57/9hxWH/RLtE/4/Vj/////////////n8+f+L1Iv/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/02+Tf/F6cX//////////////////////9Lu0v9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/t+S3//////////////////L68v9vym//RLtE/6Xepf////////////b7
+        9v+A0ID/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0u9S//A58D//////////////////////9/z3/9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/jdWN//////////////////j8+P+G0ob/RrtG/9Dt
+        0P////////////L68v9vym//RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0q9Sv+65br//////////////////////+j2
+        6P9HvEf/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/W8Nb//r9+v////////////7+
+        /v/D6cP/mdmZ//v9+////////////+z37P9XwVf/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0i8SP+y47L/////////
+        /////////////+r36v9Rv1H/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/8Xp
+        xf/////////////////8/vz/+/37/////////////////8rryv9Fu0X/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0a7
+        Rv+r4Kv//////////////////////+347f9awlr/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/27Jbv/3+/f//////////////////////////////////P38/37Pfv9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP+X2Zf/3/Pf/9Tv1P/I68j/vue+/6rfqv9UwFT/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0u9S/+45bj//P38///////////////////////+/v7/xOnE/0e8
+        R/9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Mvkz/U8BT/1C/UP9Nvk3/S71L/0i8SP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Zwln/z+3P//////////////////7+
+        /v/S7tL/XcNd/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/SbxJ/5bY
+        lv/N7M3/0O3Q/6Ldov9VwVX/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0O7
+        Q/5Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/Q7tD/kO7Q/VEu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/Q7tD9kK6QsBEu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/QrtCxEG7QVJDu0P2RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Du0P2QrpCXTOzMwpDukOUQ7tD9kS7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S6RPlDukOUQK9AEAAA
+        AAAzszMKQbtBUkK6QsBDu0P1Q7tD/kS7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7
+        RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0S7RP9Eu0T/RLtE/0O7Q/5Du0P1Q7tDw0C5
+        QFczszMKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="&gt;&gt;txtHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSelectFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 23</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUser.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFile.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="txtHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 24</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ckStringTrim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 57</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 27</value>
+  </data>
+  <data name="txtDatabase.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="txtDatabase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 24</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ui_Main</value>
+  </data>
+  <data name="&gt;&gt;ckStringTrim.Name" xml:space="preserve">
+    <value>ckStringTrim</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 204</value>
+  </data>
+  <data name="&gt;&gt;txtPort.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 24</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="btnSelectFile.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtPort.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFile.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ckStringTrim.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="&gt;&gt;txtPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="&gt;&gt;txtPathDBF.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtUser.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="ckStringTrim.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;txtPathDBF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtHost.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Name" xml:space="preserve">
+    <value>txtPassword</value>
+  </data>
+  <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
+    <value>txtPort</value>
+  </data>
+  <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;txtPathDBF.Name" xml:space="preserve">
+    <value>txtPathDBF</value>
+  </data>
+  <data name="txtPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="ckStringTrim.Text" xml:space="preserve">
+    <value>Trim a strings</value>
+  </data>
+  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtPathDBF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 57</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 54</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>529, 23</value>
+  </data>
+  <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;ckStringTrim.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Puerto</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 77</value>
+  </data>
+  <data name="btnStart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="txtDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="&gt;&gt;txtDatabase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 54</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ckStringTrim.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPort.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;txtPathDBF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDatabase.Name" xml:space="preserve">
+    <value>txtDatabase</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="txtPathDBF.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Name" xml:space="preserve">
+    <value>progressBar</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
+    <value>btnStart</value>
+  </data>
+  <data name="txtPathDBF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 58</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFile.Name" xml:space="preserve">
+    <value>btnSelectFile</value>
+  </data>
+  <data name="txtPathDBF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>523, 20</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtPort.Text" xml:space="preserve">
+    <value>3306</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>MySql</value>
+  </data>
+  <data name="txtHost.Text" xml:space="preserve">
+    <value>localhost</value>
+  </data>
+  <data name="&gt;&gt;txtHost.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 121</value>
+  </data>
+  <data name="&gt;&gt;txtHost.Name" xml:space="preserve">
+    <value>txtHost</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Archivo DBF</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="backgroundWorker.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>150, 17</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>es</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+</root>
